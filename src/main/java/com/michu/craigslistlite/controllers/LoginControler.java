@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class LoginControler {
 
     @GetMapping
-    public String processLoginPage(){
+    public String processLoginPage() {
         return "WEB-INF/views/login-page.jsp";
     }
 
-    
+
 }
